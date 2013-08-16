@@ -37,5 +37,5 @@ setopt share_history
 PATH=$PATH:$HOME/.rvm/bin
 
 # Add sh to PATH for scripting
-export PATH=~/sh:$PATH
+export PATH="$HOME/sh:$PATH"
 
