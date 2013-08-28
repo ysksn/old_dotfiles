@@ -42,3 +42,5 @@ PATH=$PATH:$HOME/.rvm/bin
 # Add sh to PATH for scripting
 export PATH="$HOME/sh:$PATH"
 
+# Completion for Zsh
+source $HOME/app/t/etc/t-completion.zsh
