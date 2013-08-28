@@ -128,7 +128,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme desert
+colorscheme coffee
 set background=dark
 
 " Set extra options when running in GUI mode
