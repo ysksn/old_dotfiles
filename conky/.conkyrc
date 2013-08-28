@@ -68,15 +68,9 @@ ${color white}Filesystem ${hr 1}${color}
 
 Root: ${alignr}${fs_free /} / ${fs_size /}
 ${fs_bar 4 /}
-Home: ${alignr}${fs_free /home} / ${fs_size /home}
-${fs_bar 4 /home}
-HDD0: ${alignr}${fs_free /media/HDD0} / ${fs_size /media/HDD0}
-${fs_bar 4 /media/HDD0}
-HDD1: ${alignr}${fs_free /media/HDD1} / ${fs_size /media/HDD1}
-${fs_bar 4 /media/HDD1}
 
 ${color white}NETWORK ${hr 1}${color}
 
-Down ${downspeed eth1} k/s ${alignr}Up ${upspeed eth1} k/s
-${downspeedgraph eth1 25,107} ${alignr}${upspeedgraph eth1 25,107}
-Total ${totaldown eth1} ${alignr}Total ${totalup eth1}
+Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s
+${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}
+Total ${totaldown eth0} ${alignr}Total ${totalup eth0}
