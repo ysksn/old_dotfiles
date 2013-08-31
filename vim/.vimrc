@@ -7,6 +7,9 @@ map <F2> :NERDTreeToggle<CR>
 " NeoBundle
 source $HOME/.vim/.neobundlerc
 
+" neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
 "       Amir Salihefendic
