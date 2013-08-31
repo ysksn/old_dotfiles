@@ -1,7 +1,11 @@
+" Pathogen
 call pathogen#infect()
 
-" Give a shortcut key to NERD Tree
+" NERD Tree
 map <F2> :NERDTreeToggle<CR>
+
+" NeoBundle
+source $HOME/.vim/.neobundlerc
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
