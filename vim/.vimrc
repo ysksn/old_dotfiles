@@ -1,5 +1,5 @@
 " Pathogen
-call pathogen#infect()
+execute pathogen#infect()
 
 " NERD Tree
 map <F2> :NERDTreeToggle<CR>
@@ -32,9 +32,9 @@ source $HOME/bin/dotfiles/vim/.neosnippetrc
       \ 'default' : '',
       \ 'vimshell' : $HOME.'/.vimshell_hist',
       \ 'scheme' : $HOME.'/.gosh_completions',
-      \ 'javascript' : 'dictionary/javascript.dict',
-      \ 'coffee' : 'dictionary/javascript.dict',
-      \ 'ruby' : 'dictionary/ruby.dict'
+      \ 'javascript' : $HOME.'/.vim/dictionary/javascript.dict',
+      \ 'coffee' : $HOME.'/.vim/dictionary/javascript.dict',
+      \ 'ruby' : $HOME.'/.vim/dictionary/ruby.dict'
           \ }
   
   " Define keyword.
