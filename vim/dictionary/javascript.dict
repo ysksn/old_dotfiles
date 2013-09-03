@@ -15,6 +15,7 @@ anchor
 anchorNode
 anchorOffset
 anchors
+andCallFake
 appCodeName
 appendChild
 applets
@@ -592,6 +593,7 @@ source
 sourceIndex
 splice
 split
+spyOn
 sqrt
 SQRT1_2
 SQRT2
