@@ -633,11 +633,11 @@ title
 toBe
 toBeCloseTo
 toBeDefined
-toBeFalsy()
+toBeFalsy
 toBeGreaterThan
 toBeLessThan
 toBeNull
-toBeTruthy()
+toBeTruthy
 toBeUndefined
 toContain
 toDateString
