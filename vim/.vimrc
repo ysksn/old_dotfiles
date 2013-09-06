@@ -34,7 +34,8 @@ source $HOME/bin/dotfiles/vim/.neosnippetrc
       \ 'scheme' : $HOME.'/.gosh_completions',
       \ 'javascript' : $HOME.'/.vim/dictionary/javascript.dict',
       \ 'coffee' : $HOME.'/.vim/dictionary/javascript.dict',
-      \ 'ruby' : $HOME.'/.vim/dictionary/ruby.dict'
+      \ 'ruby' : $HOME.'/.vim/dictionary/ruby.dict',
+      \ 'c' : $HOME.'/.vim/dictionary/c.dict'
           \ }
   
   " Define keyword.
