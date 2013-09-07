@@ -21,6 +21,7 @@ complx.h
 connu
 cono.h
 cons
+const
 cyp.h
 f
 farmalloc
@@ -50,6 +51,8 @@ gooxy
 gwc
 gwchar
 hras.h
+include
+int
 lms.h
 loa
 localconv
@@ -60,6 +63,7 @@ longjmp
 ls
 m
 mah.h
+main
 malloc
 maxabs
 maxv
@@ -89,6 +93,7 @@ ouppr
 owcrans
 owlowr
 owuppr
+printf
 puwc
 puwchar
 qsor
@@ -106,6 +111,7 @@ sarg.h
 sasc
 sblank
 sbool.h
+scanf
 scnrl
 sf.h
 sg
@@ -148,6 +154,9 @@ srsr
 sruc
 srxfrm
 sspac
+stdbool.h
+stdio.h
+struct
 suppr
 swalnum
 swalpha
@@ -178,6 +187,7 @@ va_n
 va_sar
 vfwprnf
 vo
+void
 volal
 vswprnf
 vwprnf
