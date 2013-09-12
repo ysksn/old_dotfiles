@@ -27,7 +27,6 @@
 %
 +
 +@
-1 example, 0 failures
 a
 abbrev
 abbreviate
@@ -451,7 +450,14 @@ basic_quote_characters
 basic_quote_characters=
 basic_word_break_characters
 basic_word_break_characters=
+be
+be_a
+be_a_kind_of
+be_an
+be_an_instance_of
+be_close
 beep
+be_false
 before
 before_running_rdoc
 before_setup
@@ -463,6 +469,8 @@ begins?
 begin_transport
 begx
 begy
+be_instance_of
+be_kind_of
 bench
 bench_exp
 bench_linear
@@ -472,7 +480,10 @@ bench_performance_constant
 bench_performance_exponential
 bench_performance_linear
 bench_range
+be_nil
+be_true
 between?
+be_within
 BigDecimal
 binary
 binary=
@@ -662,6 +673,7 @@ chain
 chain=
 challenge
 challenge=
+change
 change_attribute
 changed
 changed?
@@ -998,6 +1010,7 @@ count
 count_objects
 count_observers
 covector
+cover
 cover?
 coverage_level
 coverage_level=
@@ -1626,6 +1639,7 @@ end_seen?
 end_sequence
 end_stream
 end_transport
+end_with
 end_with?
 engines
 england
@@ -1663,7 +1677,10 @@ eod
 eof
 eof?
 eos?
+eq
+eql
 eql?
+equal
 equal?
 EqualityExpr
 equality_relational_compare
@@ -1725,6 +1742,7 @@ executable_real?
 executables
 executables=
 execute
+exist
 exist?
 exists?
 exit
@@ -2288,10 +2306,14 @@ has_rdoc?
 has_text?
 has_unit_tests?
 has_value?
+have
+have_at_least
+have_at_most
 have_author?
 have_children_elements
 have_const
 have_content?
+have_exactly
 have_framework
 have_func
 have_header
@@ -2976,6 +2998,7 @@ mask!
 mask_protected_sequences
 match
 match?
+match_array
 matched
 matched?
 matched_size
@@ -2986,6 +3009,7 @@ matching_specs
 matching_word_pairs
 match_platform!
 match_platform?
+match_regex
 match_to
 match_to_consume
 math?
@@ -3914,6 +3938,8 @@ radio_group
 raise
 Raise
 raised_exception
+raise_error
+raise_exception
 raise_for_undefined_entity?
 raise_if_conflicts
 rake_check_options
@@ -4224,6 +4250,7 @@ resource
 resource=
 resources
 respace
+respond_to
 respond_to?
 respond_to_missing?
 response
@@ -4340,6 +4367,7 @@ sanitize_path
 sanitize_string
 satisfied_by?
 satisfies_requirement?
+satisfy
 saturday?
 save
 save_cache
@@ -4811,6 +4839,7 @@ starttls_always?
 starttls_auto?
 start_tls_session
 start_watchdog
+start_with
 start_with?
 stat
 state
@@ -5123,6 +5152,7 @@ thread_variable_get
 thread_variables
 thread_variable_set
 throw
+throw_symbol
 thursday?
 time
 time=
@@ -5725,6 +5755,10 @@ yes_clean_other_writer
 yes_other_attr_reader
 yes_other_writer
 yield
+yield_control
+yield_successive_args
+yield_with_args
+yield_with_no_args
 yyaccept
 yydebug
 yydebug=
