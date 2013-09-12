@@ -297,6 +297,7 @@ arg
 arglists
 arg_names
 args
+ArgumentError
 arguments
 argv
 arity
@@ -1676,6 +1677,7 @@ env_table
 eod
 eof
 eof?
+EOFError
 eos?
 eq
 eql
@@ -1726,6 +1728,7 @@ events
 event_type
 examine
 exception
+Exception
 exception_class
 exception_details
 exchange
@@ -1969,6 +1972,7 @@ flat_map
 flatten
 flatten!
 Float
+FloatDomainError
 flock
 floor
 flow
@@ -2459,6 +2463,7 @@ indentation
 indent_text
 index
 index_classes
+IndexError
 index_in_parent
 index_methods
 index_pages
@@ -2609,6 +2614,7 @@ interactive
 intern
 internal_encoding
 interrupt
+Interrupt
 intersection
 int_from_prime_division
 in_transaction
@@ -2632,6 +2638,7 @@ invoke_with_build_args
 io
 io?
 ioctl
+IOError
 ioflush
 ip
 ip?
@@ -2857,6 +2864,7 @@ loaded_from=
 loaded_specs
 load_env_plugins
 loader
+LoadError
 load_file
 load_gemdeps
 load_imports
@@ -2888,6 +2896,7 @@ locale
 locale=
 locale_charmap
 local_host
+LocalJumpError
 local_name
 local_name=
 local_port
@@ -3175,6 +3184,7 @@ mv
 name
 name=
 named_captures
+NameError
 name_for_path
 name_list
 name_path
@@ -3274,6 +3284,8 @@ _nodeType
 nodeValue
 nodoc
 noecho
+NoMemoryError
+NoMethodError
 non_aliases
 none?
 nonl
@@ -3314,6 +3326,7 @@ notify
 notify?
 notify_event
 notify_observers
+NotImplementedError
 not_need_to_call_setup_maker_variables
 not_set_name
 not_set_required_variables
@@ -3960,6 +3973,7 @@ random_number
 random_string
 range
 range=
+RangeError
 range_length
 rank
 rank_e
@@ -4096,6 +4110,7 @@ refute_predicate
 refute_respond_to
 refute_same
 regexp
+RegexpError
 regist
 register
 register_command
@@ -4354,6 +4369,7 @@ _run_suites
 run_test
 run_tests
 runtime_dependencies
+RuntimeError
 run_with_threads
 rw
 safe_level
@@ -4397,6 +4413,7 @@ scheme_list
 scope
 scope=
 scope_name
+ScriptError
 script_name
 scrl
 scroll
@@ -4424,6 +4441,7 @@ section_contents
 sections
 secure
 secure=
+SecurityError
 security_policy
 see
 seed
@@ -4666,6 +4684,7 @@ sigma
 sign
 signal
 signaled?
+SignalException
 signal_handle
 signal_status
 signame
@@ -4801,6 +4820,7 @@ sspi_auth
 sspi_auth?
 standalone
 stand_alone?
+StandardError
 standard_exception_handling
 standard_rake_options
 standend
@@ -4986,6 +5006,7 @@ sync_try_lock_sub
 sync_unlock
 sync_upgrade_waiting
 sync_waiting
+SyntaxError
 synthesize_file_task
 sysaccept
 syscall
@@ -4997,9 +5018,12 @@ sysread_nonblock
 sysseek
 syssign
 system
+SystemCallError
 system_dir
+SystemExit
 system_path
 system_path=
+SystemStackError
 systmpdir
 sysverify
 syswrite
@@ -5143,6 +5167,7 @@ text_type_writer
 text_zero_one
 tgz_file
 thread
+ThreadError
 thread_internal
 thread_list
 thread_list_all
@@ -5318,6 +5343,7 @@ type2name
 typealias
 typecode
 typecode=
+TypeError
 typekind
 typelibs
 type_params
@@ -5768,6 +5794,7 @@ yyparse
 Z
 zero
 zero?
+ZeroDivisionError
 zip
 zip?
 zip_command
