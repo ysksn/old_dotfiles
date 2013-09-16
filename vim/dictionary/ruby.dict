@@ -300,6 +300,7 @@ args
 ArgumentError
 arguments
 argv
+ARGV
 arity
 array
 Array
@@ -3330,6 +3331,7 @@ NotImplementedError
 not_need_to_call_setup_maker_variables
 not_set_name
 not_set_required_variables
+not_to
 notwice
 noutrefresh
 now
@@ -5803,4 +5805,3 @@ zlib_version
 zone
 zone_offset
 zone_utc?
-not_to
