@@ -268,6 +268,7 @@ ancestors
 ancestors_of
 anchor
 AndExpr
+and_return
 angle
 annotate
 any?
@@ -495,6 +496,7 @@ bind
 bind_at_call
 bind_function
 binding
+binding.pry
 bindir
 bin_dir
 bin_file
@@ -4982,6 +4984,7 @@ swapcase!
 switch
 switch_name
 sym
+Symbol
 symlink
 symlink?
 symlink_files
