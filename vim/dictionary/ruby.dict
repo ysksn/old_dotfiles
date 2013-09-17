@@ -77,6 +77,7 @@ activate
 activated
 activated?
 activate_dependencies
+ACTIVATION_MONITOR
 active?
 active_count
 active_job?
@@ -295,6 +296,7 @@ aref
 aref_prefix
 aref_to
 arg
+ARGF
 arglists
 arg_names
 args
@@ -449,6 +451,7 @@ base_uri
 basic
 basic_auth
 basic_encode
+BasicObject
 basic_quote_characters
 basic_quote_characters=
 basic_word_break_characters
@@ -488,6 +491,7 @@ be_true
 between?
 be_within
 BigDecimal
+Bignum
 binary
 binary=
 binary?
@@ -496,6 +500,7 @@ bind
 bind_at_call
 bind_function
 binding
+Binding
 binding.pry
 bindir
 bin_dir
@@ -767,6 +772,7 @@ ciphers
 ciphers=
 civil
 class
+Class
 class_attributes
 class_dir
 class_document
@@ -877,6 +883,7 @@ common_options
 compact
 compact!
 compact_specs
+Comparable
 compare
 compare_by_identity
 compare_by_identity?
@@ -909,9 +916,11 @@ compress
 compress_indicies
 compute_key
 concat
+ConditionVariable
 conf
 config
 config=
+Config
 config_file
 config_file_name
 configuration
@@ -1073,6 +1082,7 @@ crl=
 crls
 crls=
 crmode
+CROSS_COMPILING
 cross_reference
 crypt
 c_singleton_class_variables
@@ -1114,10 +1124,12 @@ D
 daemon
 data
 data=
+Data
 datadir
 data_type
 date
 date=
+Date
 dateTime
 datetime_format
 datetime_format=
@@ -1358,6 +1370,7 @@ digest_length
 digests
 dir
 __dir__
+Dir
 dir_config
 direct_ancestors
 directory
@@ -1626,6 +1639,8 @@ encode_www_form
 encode_www_form_component
 encoding
 encoding=
+Encoding
+EncodingError
 encoding_updated
 encrypt
 end
@@ -1671,9 +1686,12 @@ entity_expansion_text_limit=
 entries
 entry_details
 entry_versions
+Enumerable
+Enumerator
 enum_for
 EnumKey
 EnumValue
+ENV
 environment
 env_shebang
 env_table
@@ -1692,6 +1710,7 @@ equality_relational_compare
 erf
 erfc
 errno
+Errno
 error
 error?
 error_bytes
@@ -1813,6 +1832,8 @@ fail
 Fail
 failed
 false
+FALSE
+FalseClass
 family
 family_addrinfo
 fast_generate
@@ -1841,6 +1862,8 @@ fetch_path
 fetch_server
 fetch_size
 fetch_spec
+Fiber
+FiberError
 fiddle?
 field
 field?
@@ -1850,6 +1873,7 @@ field_size_limit
 file
 file=
 file?
+File
 file_create
 file_dir
 file_field
@@ -1867,6 +1891,7 @@ files=
 files_hash
 files_so_far
 file_stat
+FileTest
 fill
 fill_breakable
 fill_rbuff
@@ -1968,6 +1993,7 @@ fit_power
 fix
 fix_basic_object_inheritance
 fixed_encoding?
+Fixnum
 fix_syck_default_key_in_requirements
 flags=
 flash
@@ -2064,9 +2090,11 @@ gamma
 garbage_collect
 gather_dependencies
 gather_files
+GC
 gcd
 gcdlcm
 gem
+Gem
 gem_dir
 gemdirs
 gem_file_list
@@ -2640,6 +2668,7 @@ invoke_thread
 invoke_with_build_args
 io
 io?
+IO
 ioctl
 IOError
 ioflush
@@ -2741,9 +2770,11 @@ keep_alive?
 keep_alive_timeout
 keep_clean
 keep_if
+Kernel
 key
 key=
 key?
+KeyError
 key_len=
 keyname
 keypad
@@ -3001,6 +3032,7 @@ map_gems_to_specs
 markup
 markup_code
 mark_version
+Marshal
 marshal_dump
 marshal_load
 marshal_version
@@ -3011,6 +3043,7 @@ mask_protected_sequences
 match
 match?
 match_array
+MatchData
 matched
 matched?
 matched_size
@@ -3025,6 +3058,7 @@ match_regex
 match_to
 match_to_consume
 math?
+Math
 math_mode
 math_mode=
 max
@@ -3064,6 +3098,7 @@ meta_vars
 meth
 method
 __method__
+Method
 method_added
 methodCall
 methodCall_document
@@ -3113,6 +3148,7 @@ modifieer
 modsort
 module
 module?
+Module
 module_eval
 module_exec
 module_function
@@ -3129,6 +3165,8 @@ mon_enter_for_cond
 mon_exit
 mon_exit_for_cond
 mon_initialize
+Monitor
+MonitorMixin
 mon_synchronize
 month
 month=
@@ -3181,6 +3219,7 @@ must_respond_to
 must_send
 must_throw
 mu_synchronize
+Mutex
 mu_try_lock
 mu_unlock
 mv
@@ -3267,6 +3306,8 @@ next_wait
 next_words_on_error
 next_year
 nil?
+NIL
+NilClass
 n_jobs
 nkf
 nl
@@ -3352,15 +3393,18 @@ null?
 null_object?
 number
 numerator
+Numeric
 num_files
 num_waiting
 obj
 object
+Object
 object_address_group
 object_class
 object_group
 object_id
 object_maker
+ObjectSpace
 oct
 odd?
 of
@@ -3814,8 +3858,10 @@ private_method_defined?
 private_methods
 problem
 proc
+Proc
 procdest
 process
+Process
 process_args
 process_based_port
 process_controller
@@ -3918,6 +3964,7 @@ query=
 QueryInfoKey
 query_string
 QueryValue
+Queue
 quick
 quick_gem
 quick_spec
@@ -3970,6 +4017,7 @@ rake_output_message
 rake_require
 rake_system
 rand
+Random
 random_bytes
 random_iv
 random_key
@@ -3977,6 +4025,7 @@ random_number
 random_string
 range
 range=
+Range
 RangeError
 range_length
 rank
@@ -3992,6 +4041,7 @@ raw_data
 raw_encoding
 raw_header
 raw_path
+RbConfig
 rb_files_in
 rb_scan_args
 rc
@@ -4114,6 +4164,7 @@ refute_predicate
 refute_respond_to
 refute_same
 regexp
+Regexp
 RegexpError
 regist
 register
@@ -4353,7 +4404,10 @@ ruby=
 ruby?
 rubybin
 ruby_code
+RUBY_COPYRIGHT
+RUBY_DESCRIPTION
 ruby_engine
+RUBY_ENGINE
 rubyforge_project
 rubygems_api_key
 rubygems_api_key=
@@ -4361,7 +4415,13 @@ rubygems_api_request
 rubygems_version
 ruby_opts
 ruby_opts_string
+RUBY_PATCHLEVEL
+RUBY_PLATFORM
+RUBY_RELEASE_DATE
+RUBY_REVISION
 ruby_version
+RUBY_VERSION
+RubyVM
 rule
 run
 run_code
@@ -4687,6 +4747,7 @@ sid_available?
 sigma
 sign
 signal
+Signal
 signaled?
 SignalException
 signal_handle
@@ -4721,6 +4782,7 @@ site_dir
 size
 size=
 size?
+SizedQueue
 sizeof
 size_opt_params
 size_params
@@ -4875,10 +4937,13 @@ status_line
 status_message
 status_string
 status_type_char
+STDERR
+STDIN
 stdinput
 stdlog
 stdout
 stdout=
+STDOUT
 stdout_mutex
 stdoutput
 stdscr
@@ -4888,6 +4953,7 @@ stime
 stop
 stop?
 stop_doc
+StopIteration
 stopped?
 stopping
 stop_profile
@@ -4926,6 +4992,7 @@ strongly_connected_components
 strptime
 _strptime
 struct
+Struct
 stub
 stub!
 stub_chain
@@ -5172,7 +5239,9 @@ text_type_writer
 text_zero_one
 tgz_file
 thread
+Thread
 ThreadError
+ThreadGroup
 thread_internal
 thread_list
 thread_list_all
@@ -5186,6 +5255,7 @@ throw_symbol
 thursday?
 time
 time=
+Time
 time2wtime
 time_delta_string
 time_format
@@ -5250,6 +5320,7 @@ to_p
 to_path
 to_pem
 top_level
+TOPLEVEL_BINDING
 toplevel_load
 top_level_tasks
 top_level_test
@@ -5296,6 +5367,7 @@ tr!
 trace
 trace_func
 trace_on
+TracePoint
 trace_rule
 trace_var
 trackback_validate
@@ -5313,6 +5385,8 @@ tridiagonalize
 tr_s
 tr_s!
 true
+TRUE
+TrueClass
 truncate
 truncate_output?
 trust
@@ -5378,6 +5452,7 @@ unalias_command
 UnaryExpr
 unbind
 unbind_at_call
+UnboundMethod
 unconverted_fields?
 undefine_finalizer
 undef_method
