@@ -11,7 +11,6 @@ alias ll='ls -lF'
 alias la='ls -lAF'
 alias df="df -h"
 alias du="du -h"
-alias ssh="ssh -p 8022 "
 
 ## not distinguish between lower case and upper case
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
