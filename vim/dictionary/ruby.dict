@@ -4246,7 +4246,10 @@ remove_unresolved_default_spec
 removeWhitespacesAndComments
 rename
 render
+_render_template
 render_template
+render_to_body
+render_to_string
 renegotiation_cb
 renew
 reopen
@@ -5687,7 +5690,12 @@ version_1_2?
 versions
 vi_editing_mode
 vi_editing_mode?
+view_assigns
+view_context
+view_context_class
+view_context_class=
 viewer
+view_renderer
 v_inv
 virtual_host
 visibility
