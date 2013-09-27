@@ -606,6 +606,7 @@ build_verbatim
 builtin_curves
 bulk_threshold
 bump
+button_tag
 by_col
 by_col!
 by_col_or_row
@@ -731,6 +732,7 @@ check_auth_response
 checkbox
 check_box
 checkbox_group
+check_box_tag
 check_cert
 check_chain
 check_closed
@@ -878,6 +880,7 @@ collect_tasks
 collect_tokens
 color_content
 color_field
+color_field_tag
 color_pair
 color_pairs
 colors
@@ -1160,11 +1163,14 @@ date
 date=
 Date
 date_field
+date_field_tag
 dateTime
 datetime_field
+datetime_field_tag
 datetime_format
 datetime_format=
 datetime_local_field
+datetime_local_field_tag
 date_writer
 day
 day=
@@ -1643,7 +1649,10 @@ emacs_editing_mode?
 email
 emailbx
 email_field
+email_field_tag
 email_to_name
+embed_authenticity_token_in_remote_forms
+embed_authenticity_token_in_remote_forms=
 emit_coder
 emphasis
 empty
@@ -1914,6 +1923,7 @@ field
 field?
 field_row?
 fields
+field_set_tag
 fields_for
 field_size_limit
 file
@@ -1923,6 +1933,7 @@ File
 file_create
 file_dir
 file_field
+file_field_tag
 file_input?
 file_list_string
 filename
@@ -2095,6 +2106,7 @@ format_time
 format_trace_flags
 form_data=
 form_for
+form_tag
 for_spec?
 found
 frac
@@ -2436,6 +2448,7 @@ hexdigest!
 hexencode
 hidden
 hidden_field
+hidden_field_tag
 hierarchical?
 history_file
 history_file=
@@ -2513,6 +2526,7 @@ image_button
 image_height
 image_size
 image_size=
+image_submit_tag
 image_width
 imaginary
 img
@@ -2845,6 +2859,7 @@ known_classes
 l
 label
 labels
+label_tag
 lambda
 lambda?
 lang
@@ -3237,6 +3252,7 @@ month
 month=
 month_days
 month_field
+month_field_tag
 months_ago
 months_since
 mon_try_enter
@@ -3463,6 +3479,7 @@ null?
 null_object?
 number
 number_field
+number_field_tag
 numerator
 Numeric
 num_files
@@ -3728,6 +3745,7 @@ passwd
 password
 password=
 password_field
+password_field_tag
 past?
 patch
 path
@@ -3773,6 +3791,7 @@ permute!
 pfamily
 phase
 phone_field
+phone_field_tag
 pi
 PI
 pick_best!
@@ -4078,6 +4097,7 @@ racc_token2str
 _racc_yyparse_c
 _racc_yyparse_rb
 radio_button
+radio_button_tag
 radio_group
 raise
 Raise
@@ -4108,6 +4128,7 @@ range=
 Range
 RangeError
 range_field
+range_field_tag
 range_length
 rank
 rank_e
@@ -4575,6 +4596,7 @@ search_const
 search_convpath
 searcher=
 search_field
+search_field_tag
 search_file
 search_for_dependency
 search_full
@@ -4602,6 +4624,7 @@ seek
 seen
 select
 select!
+select_tag
 select_tasks_to_show
 select_trace_output
 self
@@ -5102,6 +5125,7 @@ subject_certificate=
 subject_request
 subject_request=
 submit
+submit_tag
 subpad
 subscribe
 subsec
@@ -5241,6 +5265,7 @@ tcp_socket
 teardown
 tee
 telephone_field
+telephone_field_tag
 tell
 telnetmode
 telnetmode=
@@ -5330,7 +5355,9 @@ text=
 text?
 textarea
 text_area
+text_area_tag
 text_field
+text_field_tag
 textinput
 texts
 text_type_writer
@@ -5357,6 +5384,7 @@ Time
 time2wtime
 time_delta_string
 time_field
+time_field_tag
 time_format
 timeout
 timeout=
@@ -5667,6 +5695,7 @@ uri_option
 uri_registered?
 url_encode
 url_field
+url_field_tag
 urlsafe_base64
 urlsafe_decode64
 urlsafe_encode64
@@ -5701,6 +5730,7 @@ use_ui
 utc
 utc?
 utc_offset
+utf8_enforcer_tag
 util_build_gem
 util_clear_gems
 util_dir_entry
@@ -5860,6 +5890,7 @@ weakref_alive?
 webcvs
 wednesday?
 week_field
+week_field_tag
 weeks_ago
 weeks_since
 weight
