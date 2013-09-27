@@ -84,6 +84,8 @@ active_job?
 active_jobs
 active_jobs_exist?
 active_process_controllers
+acts_like?
+acts_like_date?
 add
 add!
 add?
@@ -226,6 +228,7 @@ add_word_pair
 adler
 adler32
 adler32_combine
+advance
 advise
 afamily
 after
@@ -233,6 +236,7 @@ after_setup
 after_teardown
 after_worker_down
 after_worker_quit
+ago
 ajd
 alert
 alert_error
@@ -379,8 +383,19 @@ atan2
 atan2!
 atanh
 atanh!
+at_beginning_of_day
+at_beginning_of_month
+at_beginning_of_quarter
+at_beginning_of_week
+at_beginning_of_year
+at_end_of_day
+at_end_of_month
+at_end_of_quarter
+at_end_of_week
+at_end_of_year
 at_exit
 atime
+at_midnight
 atom_validate
 attempt_rule
 attlistdecl
@@ -470,7 +485,12 @@ before_setup
 before_teardown
 begin
 begin_adding
+beginning_of_day
 beginning_of_line?
+beginning_of_month
+beginning_of_quarter
+beginning_of_week
+beginning_of_year
 begins?
 begin_transport
 begx
@@ -518,6 +538,7 @@ bitmap_for
 bit_set?
 bkgd
 bkgdset
+blank?
 blank_line
 blinding_off!
 blinding_on!
@@ -553,6 +574,7 @@ breakable
 breakables
 break_on_newline
 break_outmost_groups
+breakpoint
 break_points
 broadcast
 broadcast_list
@@ -643,6 +665,7 @@ ca_path
 capitalize
 capitalize!
 caption
+capture
 capture2
 capture2e
 capture3
@@ -892,6 +915,8 @@ compare_by_identity?
 compare_file
 compare_language
 compare_stream
+compare_with_coercion
+compare_without_coercion
 compatible?
 compile
 compile_error
@@ -1123,6 +1148,7 @@ cweek
 cwyear
 cycle
 d
+d__
 D
 daemon
 data
@@ -1143,6 +1169,9 @@ date_writer
 day
 day=
 day_fraction
+days_ago
+days_since
+days_to_week_start
 dclone
 deafen
 deal
@@ -1168,6 +1197,7 @@ decode_www_form
 decode_www_form_component
 decrypt
 deep_clone
+deep_dup
 def_array_element
 def_atom_persons
 def_atom_text_construct
@@ -1188,6 +1218,7 @@ default_gem?
 default_id_conv
 default_imap_port
 default_imaps_port
+default_inspect
 default_internal
 default_internal=
 default_key_path
@@ -1521,6 +1552,7 @@ dump_list
 dump_response
 dump_stream
 dup
+duplicable?
 dynamic_width
 dynamic_width_stty
 dynamic_width_tput
@@ -1627,6 +1659,7 @@ enable_ssl
 enable_starttls
 enable_starttls_auto
 enable_tls
+enable_warnings
 enc_key
 enclose
 enclosed?
@@ -1659,6 +1692,11 @@ end_element?
 endElement
 endgrent
 end_mapping
+end_of_day
+end_of_month
+end_of_quarter
+end_of_week
+end_of_year
 end_prefix_mapping
 endpwent
 end_seen?
@@ -2094,6 +2132,7 @@ fully_expanded_name
 function
 FunctionCall
 fu_stream_blksize
+future?
 fu_windows?
 gamma
 garbage_collect
@@ -2420,6 +2459,7 @@ html
 html_escape
 html_list_name
 html_name
+html_safe?
 html_tags
 hton
 httpd
@@ -2483,6 +2523,8 @@ import
 import_function
 import_symbol
 import_value
+in
+in?
 in6_addr
 inactivate
 in_addr
@@ -2639,8 +2681,10 @@ instance_method
 instance_method_list
 instance_methods
 instance_of?
+instance_values
 instance_variable_defined?
 instance_variable_get
+instance_variable_names
 instance_variables
 instance_variable_set
 instruction
@@ -2658,6 +2702,7 @@ interrupt
 Interrupt
 intersection
 int_from_prime_division
+in_time_zone
 in_transaction
 in_transaction_wr
 in_tt?
@@ -2812,6 +2857,8 @@ last_error=
 last_line
 last_match
 last_modified
+last_month
+last_quarter
 last_request
 lastresp
 last_response
@@ -2819,6 +2866,8 @@ last_response_code
 last_update
 last_update=
 last_value
+last_week
+last_year
 latest_rubygems_version
 latest_spec_for
 latest_specs
@@ -2902,6 +2951,7 @@ load_default_cert
 load_default_key
 load_default_options
 load_defaults
+load_dependency
 load_documents
 loaded_from
 loaded_from=
@@ -3129,6 +3179,7 @@ methods_hash
 methods_matching
 method_type
 method_undefined
+midnight
 mime_split
 mime_type
 min
@@ -3139,6 +3190,8 @@ minmax
 minmax_by
 minor
 minor_version
+minus_with_duration
+minus_without_duration
 minute
 minute=
 missing_dependencies
@@ -3170,6 +3223,7 @@ modulo
 mon
 mon=
 mon_check_owner
+monday
 monday?
 mon_enter
 mon_enter_for_cond
@@ -3183,6 +3237,8 @@ month
 month=
 month_days
 month_field
+months_ago
+months_since
 mon_try_enter
 mount
 mountpoint?
@@ -3307,6 +3363,7 @@ next_current
 next_day
 next_element
 next_month
+next_quarter
 next_sibling=
 next_sibling_node
 next_to
@@ -3315,6 +3372,7 @@ next_update
 next_update=
 next_values
 next_wait
+next_week
 next_words_on_error
 next_year
 nil?
@@ -3670,6 +3728,7 @@ passwd
 password
 password=
 password_field
+past?
 patch
 path
 path=
@@ -3734,6 +3793,8 @@ platform=
 platforms
 platforms=
 plural_forms
+plus_with_duration
+plus_without_duration
 point
 point_conversion_form
 point_conversion_form=
@@ -3809,6 +3870,8 @@ prerequisites
 prerequisite_tasks
 pre_reset
 pre_reset_hooks
+presence
+present?
 pretty
 pretty_generate
 pretty_inspect
@@ -3828,6 +3891,8 @@ previous_period_end
 previous_sibling=
 previous_sibling_node
 prev_month
+prev_quarter
+prev_week
 prev_words_on_error
 prev_year
 pride
@@ -3985,6 +4050,7 @@ quick_spec
 quiet
 quiet=
 quiet?
+quietly
 quit
 quit_called
 quit_workers
@@ -4080,6 +4146,7 @@ rdoc_version
 read
 readable?
 readable_after_eof?
+readable_inspect
 readable_real?
 readagain_bytes
 read_all
@@ -4299,6 +4366,7 @@ require
 required_attribute?
 required_attributes
 required_element?
+require_dependency
 required_prefix
 required_rubygems_version
 required_rubygems_version=
@@ -4311,6 +4379,7 @@ requirement
 requirements
 requirements=
 requirements_list
+require_or_load
 require_path
 require_path=
 require_path_info?
@@ -4780,8 +4849,13 @@ signers
 sign_in
 signing_key
 signo
+silence
+silence_stderr
+silence_stream
+silence_warnings
 sin
 sin!
+since
 single?
 single_delegate
 singleline_format
@@ -5051,6 +5125,7 @@ summary
 summary=
 summary_indent
 summary_width
+sunday
 sunday?
 superclass
 superclass=
@@ -5059,7 +5134,9 @@ super_each
 superset?
 supply_default_content_type
 supported?
+suppress
 suppressed?
+suppress_warnings
 suspend
 suspend_context
 suspend_input_method
@@ -5306,6 +5383,8 @@ to_d
 to_date
 to_datetime
 today
+today?
+to_default_s
 to_der
 to_digits
 to_element_methods
@@ -5314,6 +5393,7 @@ toeuc
 to_f
 to_feed
 to_feed_for_categories
+to_formatted_s
 to_h
 to_hash
 to_html
@@ -5334,11 +5414,13 @@ token_to_str
 tolocale
 to_mailtext
 tomdoc?
+tomorrow
 to_name
 to_obj
 to_oct
 top
 to_p
+to_param
 to_path
 to_pem
 top_level
@@ -5348,6 +5430,7 @@ top_level_tasks
 top_level_test
 to_proc
 to_ptr
+to_query
 to_r
 to_range
 to_rfc822text
@@ -5372,6 +5455,7 @@ total_out
 total_time
 to_text
 to_time
+to_time_in_current_zone
 to_toc
 touch
 to_uri
@@ -5416,6 +5500,8 @@ trust=
 trust_cert
 trust_dir
 trusted_certificates
+try
+try!
 try_activate
 try_const
 try_convert
@@ -5516,6 +5602,7 @@ unix_server_socket
 unix_socket_abstract_name?
 unknown
 unlink
+unloadable
 unlock
 unmask_protected_sequences
 unmatched_alias_lists
@@ -5773,6 +5860,8 @@ weakref_alive?
 webcvs
 wednesday?
 week_field
+weeks_ago
+weeks_since
 weight
 welcome
 when_invoked
@@ -5796,8 +5885,10 @@ with_config
 with_defaults
 with_index
 with_object
+with_options
 with_response
 with_verbose
+with_warnings
 wont_be
 wont_be_close_to
 wont_be_empty
@@ -5885,10 +5976,13 @@ yank_gem
 yday
 year
 year=
+years_ago
+years_since
 yes_clean_other_attr_reader
 yes_clean_other_writer
 yes_other_attr_reader
 yes_other_writer
+yesterday
 yield
 yield_control
 yield_successive_args
@@ -5912,5 +6006,3 @@ zlib_version
 zone
 zone_offset
 zone_utc?
-
-
