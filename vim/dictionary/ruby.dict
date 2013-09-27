@@ -637,6 +637,8 @@ cache_dir
 cache_file
 cache_path
 cachesize=
+cache_store
+cache_store=
 cache_update_path
 ca_file
 calc_checksum
@@ -1872,6 +1874,7 @@ expect
 expected
 expire
 expired?
+expire_fragment
 expires
 expires=
 exponent
@@ -2137,6 +2140,8 @@ found
 frac
 fragment
 fragment=
+fragment_cache_key
+fragment_exist?
 free
 free=
 freeze
@@ -2735,6 +2740,7 @@ instance_variable_set
 instruction
 instruction?
 instructions
+instrument_fragment_cache
 int
 integer
 integer?
@@ -4226,6 +4232,7 @@ read_checksums
 read_directive
 read_documentation_modifiers
 read_file
+read_fragment
 read_from_cmdline
 read_i
 readline
@@ -5875,6 +5882,7 @@ versions
 vi_editing_mode
 vi_editing_mode?
 view_assigns
+view_cache_dependencies
 view_context
 view_context_class
 view_context_class=
@@ -6021,6 +6029,7 @@ write_document
 write_element
 writeencoding
 write_file
+write_fragment
 write_header
 write_headers?
 write_i
