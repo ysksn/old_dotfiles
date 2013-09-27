@@ -5144,6 +5144,8 @@ stopsig
 storbinary
 store
 store=
+store_accessor
+_store_accessors_module
 store_for
 store_internal
 stores
