@@ -1130,6 +1130,7 @@ ctype=
 current
 current=
 CurrentContext
+current_cycle
 current_element
 current_group
 current_job
@@ -1807,6 +1808,7 @@ exception
 Exception
 exception_class
 exception_details
+excerpt
 exchange
 exclude
 exclude_end?
@@ -2450,6 +2452,7 @@ hidden
 hidden_field
 hidden_field_tag
 hierarchical?
+highlight
 history_file
 history_file=
 hkey
@@ -3812,6 +3815,7 @@ platform=
 platforms
 platforms=
 plural_forms
+pluralize
 plus_with_duration
 plus_without_duration
 point
@@ -4411,6 +4415,7 @@ rerdoc_task_description
 rerdoc_task_name
 res
 reset
+reset_cycle
 reset_nil_attributes_to_default
 reset_prog_mode
 re_sign
@@ -4544,6 +4549,7 @@ runtime_dependencies
 RuntimeError
 run_with_threads
 rw
+safe_concat
 safe_level
 safe_ln
 safe_unlink
@@ -4876,6 +4882,7 @@ silence
 silence_stderr
 silence_stream
 silence_warnings
+simple_format
 sin
 sin!
 since
@@ -5934,6 +5941,7 @@ wont_include
 wont_match
 wont_respond_to
 word_pair_map
+word_wrap
 wordy
 workspace
 workspace_home
