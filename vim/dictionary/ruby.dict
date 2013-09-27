@@ -84,6 +84,8 @@ active_job?
 active_jobs
 active_jobs_exist?
 active_process_controllers
+acts_like?
+acts_like_date?
 add
 add!
 add?
@@ -131,6 +133,7 @@ add_file_digest
 add_file_signed
 add_file_simple
 add_filter
+add_flash_types
 add_footnote
 add_found_dependencies
 add_from
@@ -226,13 +229,17 @@ add_word_pair
 adler
 adler32
 adler32_combine
+advance
 advise
 afamily
 after
+after_action
+after_filter
 after_setup
 after_teardown
 after_worker_down
 after_worker_quit
+ago
 ajd
 alert
 alert_error
@@ -284,6 +291,12 @@ ap_name
 apop?
 APOP
 append
+append_after_action
+append_after_filter
+append_around_action
+append_around_filter
+append_before_action
+append_before_filter
 append_data
 append_features
 application
@@ -305,6 +318,8 @@ arguments
 argv
 ARGV
 arity
+around_action
+around_filter
 array
 Array
 array_attributes
@@ -379,8 +394,19 @@ atan2
 atan2!
 atanh
 atanh!
+at_beginning_of_day
+at_beginning_of_month
+at_beginning_of_quarter
+at_beginning_of_week
+at_beginning_of_year
+at_end_of_day
+at_end_of_month
+at_end_of_quarter
+at_end_of_week
+at_end_of_year
 at_exit
 atime
+at_midnight
 atom_validate
 attempt_rule
 attlistdecl
@@ -465,12 +491,19 @@ be_close
 beep
 be_false
 before
+before_action
+before_filter
 before_running_rdoc
 before_setup
 before_teardown
 begin
 begin_adding
+beginning_of_day
 beginning_of_line?
+beginning_of_month
+beginning_of_quarter
+beginning_of_week
+beginning_of_year
 begins?
 begin_transport
 begx
@@ -518,6 +551,7 @@ bitmap_for
 bit_set?
 bkgd
 bkgdset
+blank?
 blank_line
 blinding_off!
 blinding_on!
@@ -553,6 +587,7 @@ breakable
 breakables
 break_on_newline
 break_outmost_groups
+breakpoint
 break_points
 broadcast
 broadcast_list
@@ -584,6 +619,7 @@ build_verbatim
 builtin_curves
 bulk_threshold
 bump
+button_tag
 by_col
 by_col!
 by_col_or_row
@@ -601,6 +637,8 @@ cache_dir
 cache_file
 cache_path
 cachesize=
+cache_store
+cache_store=
 cache_update_path
 ca_file
 calc_checksum
@@ -643,6 +681,7 @@ ca_path
 capitalize
 capitalize!
 caption
+capture
 capture2
 capture2e
 capture3
@@ -662,6 +701,7 @@ cd
 cdata
 cdata?
 cdatas
+cdata_section
 cdesc
 cdiv
 ceil
@@ -708,6 +748,7 @@ check_auth_response
 checkbox
 check_box
 checkbox_group
+check_box_tag
 check_cert
 check_chain
 check_closed
@@ -804,6 +845,7 @@ clear_comment
 clear_comments
 clear_default_specs
 clear_exclude
+clear_helpers
 clear_paths
 clear_prerequisites
 clear_remaining_example_groups
@@ -850,10 +892,15 @@ collect_attributes
 collect_attrs
 collect_concat
 collect_first_comment
+collection_check_boxes
+collection_radio_buttons
+collection_select
 collect_method
 collect_tasks
 collect_tokens
 color_content
+color_field
+color_field_tag
 color_pair
 color_pairs
 colors
@@ -891,6 +938,8 @@ compare_by_identity?
 compare_file
 compare_language
 compare_stream
+compare_with_coercion
+compare_without_coercion
 compatible?
 compile
 compile_error
@@ -966,12 +1015,15 @@ contains_requirable_file?
 content
 content=
 content_encoding
+content_for
+content_for?
 content_is_set?
 content_length
 content_length=
 content_range
 contents
 content_setup
+content_tag
 content_type
 content_type=
 content_writer
@@ -1101,6 +1153,7 @@ ctype=
 current
 current=
 CurrentContext
+current_cycle
 current_element
 current_group
 current_job
@@ -1122,6 +1175,7 @@ cweek
 cwyear
 cycle
 d
+d__
 D
 daemon
 data
@@ -1132,13 +1186,22 @@ data_type
 date
 date=
 Date
+date_field
+date_field_tag
 dateTime
+datetime_field
+datetime_field_tag
 datetime_format
 datetime_format=
+datetime_local_field
+datetime_local_field_tag
 date_writer
 day
 day=
 day_fraction
+days_ago
+days_since
+days_to_week_start
 dclone
 deafen
 deal
@@ -1164,6 +1227,7 @@ decode_www_form
 decode_www_form_component
 decrypt
 deep_clone
+deep_dup
 def_array_element
 def_atom_persons
 def_atom_text_construct
@@ -1184,6 +1248,7 @@ default_gem?
 default_id_conv
 default_imap_port
 default_imaps_port
+default_inspect
 default_internal
 default_internal=
 default_key_path
@@ -1517,6 +1582,7 @@ dump_list
 dump_response
 dump_stream
 dup
+duplicable?
 dynamic_width
 dynamic_width_stty
 dynamic_width_tput
@@ -1607,7 +1673,10 @@ emacs_editing_mode?
 email
 emailbx
 email_field
+email_field_tag
 email_to_name
+embed_authenticity_token_in_remote_forms
+embed_authenticity_token_in_remote_forms=
 emit_coder
 emphasis
 empty
@@ -1623,6 +1692,7 @@ enable_ssl
 enable_starttls
 enable_starttls_auto
 enable_tls
+enable_warnings
 enc_key
 enclose
 enclosed?
@@ -1655,6 +1725,11 @@ end_element?
 endElement
 endgrent
 end_mapping
+end_of_day
+end_of_month
+end_of_quarter
+end_of_week
+end_of_year
 end_prefix_mapping
 endpwent
 end_seen?
@@ -1729,6 +1804,7 @@ escapeElement
 escape_form
 escape_html
 escapeHTML
+escape_once
 escape_path
 escape_re
 escape_userpass
@@ -1756,6 +1832,7 @@ exception
 Exception
 exception_class
 exception_details
+excerpt
 exchange
 exclude
 exclude_end?
@@ -1797,6 +1874,7 @@ expect
 expected
 expire
 expired?
+expire_fragment
 expires
 expires=
 exponent
@@ -1872,6 +1950,7 @@ field
 field?
 field_row?
 fields
+field_set_tag
 fields_for
 field_size_limit
 file
@@ -1881,6 +1960,7 @@ File
 file_create
 file_dir
 file_field
+file_field_tag
 file_input?
 file_list_string
 filename
@@ -2016,6 +2096,7 @@ FlushKey
 flush_left
 flush_next_in
 flush_next_out
+flush_output_buffer
 flush_sessions
 fnmatch
 fnmatch?
@@ -2053,11 +2134,14 @@ format_time
 format_trace_flags
 form_data=
 form_for
+form_tag
 for_spec?
 found
 frac
 fragment
 fragment=
+fragment_cache_key
+fragment_exist?
 free
 free=
 freeze
@@ -2090,6 +2174,7 @@ fully_expanded_name
 function
 FunctionCall
 fu_stream_blksize
+future?
 fu_windows?
 gamma
 garbage_collect
@@ -2284,6 +2369,8 @@ grep
 group
 group=
 group_by
+grouped_collection_select
+grouped_options_for_select
 group_entries
 group_queue
 groups
@@ -2382,6 +2469,8 @@ height=
 helo
 help
 helpcontext
+helper
+helper_method
 helpfile
 helpstring
 here?
@@ -2393,7 +2482,9 @@ hexdigest!
 hexencode
 hidden
 hidden_field
+hidden_field_tag
 hierarchical?
+highlight
 history_file
 history_file=
 hkey
@@ -2416,6 +2507,7 @@ html
 html_escape
 html_list_name
 html_name
+html_safe?
 html_tags
 hton
 httpd
@@ -2469,6 +2561,7 @@ image_button
 image_height
 image_size
 image_size=
+image_submit_tag
 image_width
 imaginary
 img
@@ -2479,6 +2572,8 @@ import
 import_function
 import_symbol
 import_value
+in
+in?
 in6_addr
 inactivate
 in_addr
@@ -2572,6 +2667,7 @@ insecure_method?
 insert
 insert_after
 insert_before
+_insert_callbacks
 insertln
 insert_output
 insert_text
@@ -2635,13 +2731,16 @@ instance_method
 instance_method_list
 instance_methods
 instance_of?
+instance_values
 instance_variable_defined?
 instance_variable_get
+instance_variable_names
 instance_variables
 instance_variable_set
 instruction
 instruction?
 instructions
+instrument_fragment_cache
 int
 integer
 integer?
@@ -2654,6 +2753,7 @@ interrupt
 Interrupt
 intersection
 int_from_prime_division
+in_time_zone
 in_transaction
 in_transaction_wr
 in_tt?
@@ -2796,6 +2896,7 @@ known_classes
 l
 label
 labels
+label_tag
 lambda
 lambda?
 lang
@@ -2808,6 +2909,8 @@ last_error=
 last_line
 last_match
 last_modified
+last_month
+last_quarter
 last_request
 lastresp
 last_response
@@ -2815,6 +2918,8 @@ last_response_code
 last_update
 last_update=
 last_value
+last_week
+last_year
 latest_rubygems_version
 latest_spec_for
 latest_specs
@@ -2898,6 +3003,7 @@ load_default_cert
 load_default_key
 load_default_options
 load_defaults
+load_dependency
 load_documents
 loaded_from
 loaded_from=
@@ -2955,6 +3061,7 @@ log10
 log10!
 log2
 log2!
+log_error
 logger
 logger=
 logging
@@ -3125,6 +3232,7 @@ methods_hash
 methods_matching
 method_type
 method_undefined
+midnight
 mime_split
 mime_type
 min
@@ -3135,6 +3243,8 @@ minmax
 minmax_by
 minor
 minor_version
+minus_with_duration
+minus_without_duration
 minute
 minute=
 missing_dependencies
@@ -3148,6 +3258,7 @@ mktime
 mktmpdir
 mname
 mode
+model_name_from_record_or_class
 models
 modifiable
 modifieer
@@ -3160,11 +3271,13 @@ module_exec
 module_function
 module_names
 modules
+modules_for_helpers
 modules_hash
 modulo
 mon
 mon=
 mon_check_owner
+monday
 monday?
 mon_enter
 mon_enter_for_cond
@@ -3177,6 +3290,10 @@ mon_synchronize
 month
 month=
 month_days
+month_field
+month_field_tag
+months_ago
+months_since
 mon_try_enter
 mount
 mountpoint?
@@ -3301,6 +3418,7 @@ next_current
 next_day
 next_element
 next_month
+next_quarter
 next_sibling=
 next_sibling_node
 next_to
@@ -3309,6 +3427,7 @@ next_update
 next_update=
 next_values
 next_wait
+next_week
 next_words_on_error
 next_year
 nil?
@@ -3349,6 +3468,8 @@ norm
 normal?
 normalize
 normalize!
+_normalize_callback_option
+_normalize_callback_options
 normalize_comment
 normalized
 normalized_file_list
@@ -3399,6 +3520,7 @@ null?
 null_object?
 number
 number_field
+number_field_tag
 numerator
 Numeric
 num_files
@@ -3499,10 +3621,13 @@ open_timeout
 open_uri_original_open
 open_uri_or_path
 optional?
+option_groups_from_collection_for_select
 option_list
 option_parser
 options
 options=
+options_for_select
+options_from_collection_for_select
 options_of
 optname
 ord
@@ -3664,6 +3789,8 @@ passwd
 password
 password=
 password_field
+password_field_tag
+past?
 patch
 path
 path=
@@ -3708,6 +3835,7 @@ permute!
 pfamily
 phase
 phone_field
+phone_field_tag
 pi
 PI
 pick_best!
@@ -3728,6 +3856,9 @@ platform=
 platforms
 platforms=
 plural_forms
+pluralize
+plus_with_duration
+plus_without_duration
 point
 point_conversion_form
 point_conversion_form=
@@ -3794,6 +3925,12 @@ pre_install_hooks
 pre_match
 _prepare_run
 prepend
+prepend_after_action
+prepend_after_filter
+prepend_around_action
+prepend_around_filter
+prepend_before_action
+prepend_before_filter
 prepended
 prepend_features
 preprocess
@@ -3803,6 +3940,8 @@ prerequisites
 prerequisite_tasks
 pre_reset
 pre_reset_hooks
+presence
+present?
 pretty
 pretty_generate
 pretty_inspect
@@ -3822,6 +3961,8 @@ previous_period_end
 previous_sibling=
 previous_sibling_node
 prev_month
+prev_quarter
+prev_week
 prev_words_on_error
 prev_year
 pride
@@ -3979,6 +4120,7 @@ quick_spec
 quiet
 quiet=
 quiet?
+quietly
 quit
 quit_called
 quit_workers
@@ -4006,6 +4148,7 @@ racc_token2str
 _racc_yyparse_c
 _racc_yyparse_rb
 radio_button
+radio_button_tag
 radio_group
 raise
 Raise
@@ -4036,6 +4179,7 @@ range=
 Range
 RangeError
 range_field
+range_field_tag
 range_length
 rank
 rank_e
@@ -4074,6 +4218,7 @@ rdoc_version
 read
 readable?
 readable_after_eof?
+readable_inspect
 readable_real?
 readagain_bytes
 read_all
@@ -4088,6 +4233,7 @@ read_checksums
 read_directive
 read_documentation_modifiers
 read_file
+read_fragment
 read_from_cmdline
 read_i
 readline
@@ -4293,6 +4439,7 @@ require
 required_attribute?
 required_attributes
 required_element?
+require_dependency
 required_prefix
 required_rubygems_version
 required_rubygems_version=
@@ -4305,6 +4452,7 @@ requirement
 requirements
 requirements=
 requirements_list
+require_or_load
 require_path
 require_path=
 require_path_info?
@@ -4315,6 +4463,7 @@ rerdoc_task_description
 rerdoc_task_name
 res
 reset
+reset_cycle
 reset_nil_attributes_to_default
 reset_prog_mode
 re_sign
@@ -4336,6 +4485,7 @@ respond_to
 respond_to?
 respond_to_missing?
 response
+response_body=
 response_body_permitted?
 response_class
 response_handlers
@@ -4448,6 +4598,7 @@ runtime_dependencies
 RuntimeError
 run_with_threads
 rw
+safe_concat
 safe_level
 safe_ln
 safe_unlink
@@ -4455,6 +4606,7 @@ same_attributes?
 same_feed_type?
 sample
 sanitize
+sanitize_css
 sanitize_path
 sanitize_string
 satisfied_by?
@@ -4500,6 +4652,7 @@ search_const
 search_convpath
 searcher=
 search_field
+search_field_tag
 search_file
 search_for_dependency
 search_full
@@ -4527,6 +4680,7 @@ seek
 seen
 select
 select!
+select_tag
 select_tasks_to_show
 select_trace_output
 self
@@ -4660,6 +4814,7 @@ set_redirect
 setregid
 set_registry
 setresgid
+set_response!
 setresuid
 setreuid
 setrgid
@@ -4774,8 +4929,14 @@ signers
 sign_in
 signing_key
 signo
+silence
+silence_stderr
+silence_stream
+silence_warnings
+simple_format
 sin
 sin!
+since
 single?
 single_delegate
 singleline_format
@@ -4800,8 +4961,16 @@ sizeof
 size_opt_params
 size_params
 skip
+skip_action_callback
+skip_after_action
+skip_after_filter
+skip_around_action
+skip_around_filter
+skip_before_action
+skip_before_filter
 skip_blanks?
 skip_during
+skip_filter
 skip_for_variable
 skip_lines
 skip_method
@@ -4975,6 +5144,8 @@ stopsig
 storbinary
 store
 store=
+store_accessor
+_store_accessors_module
 store_for
 store_internal
 stores
@@ -4997,9 +5168,11 @@ string_value
 strip
 strip!
 strip_hashes
+strip_links
 strip_newlines
 strip_quotes
 strip_stars
+strip_tags
 strong
 strongly_connected_components
 strptime
@@ -5022,6 +5195,7 @@ subject_certificate=
 subject_request
 subject_request=
 submit
+submit_tag
 subpad
 subscribe
 subsec
@@ -5045,6 +5219,7 @@ summary
 summary=
 summary_indent
 summary_width
+sunday
 sunday?
 superclass
 superclass=
@@ -5053,7 +5228,9 @@ super_each
 superset?
 supply_default_content_type
 supported?
+suppress
 suppressed?
+suppress_warnings
 suspend
 suspend_context
 suspend_input_method
@@ -5158,6 +5335,7 @@ tcp_socket
 teardown
 tee
 telephone_field
+telephone_field_tag
 tell
 telnetmode
 telnetmode=
@@ -5247,7 +5425,9 @@ text=
 text?
 textarea
 text_area
+text_area_tag
 text_field
+text_field_tag
 textinput
 texts
 text_type_writer
@@ -5273,12 +5453,16 @@ time=
 Time
 time2wtime
 time_delta_string
+time_field
+time_field_tag
 time_format
 timeout
 timeout=
 timeouts=
 times
 timestamp
+time_zone_options_for_select
+time_zone_select
 title
 title=
 tls?
@@ -5299,6 +5483,8 @@ to_d
 to_date
 to_datetime
 today
+today?
+to_default_s
 to_der
 to_digits
 to_element_methods
@@ -5307,6 +5493,7 @@ toeuc
 to_f
 to_feed
 to_feed_for_categories
+to_formatted_s
 to_h
 to_hash
 to_html
@@ -5327,11 +5514,13 @@ token_to_str
 tolocale
 to_mailtext
 tomdoc?
+tomorrow
 to_name
 to_obj
 to_oct
 top
 to_p
+to_param
 to_path
 to_pem
 top_level
@@ -5341,6 +5530,7 @@ top_level_tasks
 top_level_test
 to_proc
 to_ptr
+to_query
 to_r
 to_range
 to_rfc822text
@@ -5365,6 +5555,7 @@ total_out
 total_time
 to_text
 to_time
+to_time_in_current_zone
 to_toc
 touch
 to_uri
@@ -5409,6 +5600,8 @@ trust=
 trust_cert
 trust_dir
 trusted_certificates
+try
+try!
 try_activate
 try_const
 try_convert
@@ -5509,6 +5702,7 @@ unix_server_socket
 unix_socket_abstract_name?
 unknown
 unlink
+unloadable
 unlock
 unmask_protected_sequences
 unmatched_alias_lists
@@ -5573,6 +5767,7 @@ uri_option
 uri_registered?
 url_encode
 url_field
+url_field_tag
 urlsafe_base64
 urlsafe_decode64
 urlsafe_encode64
@@ -5607,6 +5802,7 @@ use_ui
 utc
 utc?
 utc_offset
+utf8_enforcer_tag
 util_build_gem
 util_clear_gems
 util_dir_entry
@@ -5691,6 +5887,7 @@ versions
 vi_editing_mode
 vi_editing_mode?
 view_assigns
+view_cache_dependencies
 view_context
 view_context_class
 view_context_class=
@@ -5765,6 +5962,10 @@ wday
 weakref_alive?
 webcvs
 wednesday?
+week_field
+week_field_tag
+weeks_ago
+weeks_since
 weight
 welcome
 when_invoked
@@ -5788,8 +5989,11 @@ with_config
 with_defaults
 with_index
 with_object
+with_options
+with_output_buffer
 with_response
 with_verbose
+with_warnings
 wont_be
 wont_be_close_to
 wont_be_empty
@@ -5804,6 +6008,7 @@ wont_include
 wont_match
 wont_respond_to
 word_pair_map
+word_wrap
 wordy
 workspace
 workspace_home
@@ -5829,6 +6034,7 @@ write_document
 write_element
 writeencoding
 write_file
+write_fragment
 write_header
 write_headers?
 write_i
@@ -5877,10 +6083,13 @@ yank_gem
 yday
 year
 year=
+years_ago
+years_since
 yes_clean_other_attr_reader
 yes_clean_other_writer
 yes_other_attr_reader
 yes_other_writer
+yesterday
 yield
 yield_control
 yield_successive_args
