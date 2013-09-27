@@ -3061,6 +3061,7 @@ log10
 log10!
 log2
 log2!
+log_error
 logger
 logger=
 logging
@@ -4484,6 +4485,7 @@ respond_to
 respond_to?
 respond_to_missing?
 response
+response_body=
 response_body_permitted?
 response_class
 response_handlers
@@ -4812,6 +4814,7 @@ set_redirect
 setregid
 set_registry
 setresgid
+set_response!
 setresuid
 setreuid
 setrgid
