@@ -233,6 +233,8 @@ advance
 advise
 afamily
 after
+after_action
+after_filter
 after_setup
 after_teardown
 after_worker_down
@@ -289,6 +291,12 @@ ap_name
 apop?
 APOP
 append
+append_after_action
+append_after_filter
+append_around_action
+append_around_filter
+append_before_action
+append_before_filter
 append_data
 append_features
 application
@@ -310,6 +318,8 @@ arguments
 argv
 ARGV
 arity
+around_action
+around_filter
 array
 Array
 array_attributes
@@ -481,6 +491,8 @@ be_close
 beep
 be_false
 before
+before_action
+before_filter
 before_running_rdoc
 before_setup
 before_teardown
@@ -2650,6 +2662,7 @@ insecure_method?
 insert
 insert_after
 insert_before
+_insert_callbacks
 insertln
 insert_output
 insert_text
@@ -3448,6 +3461,8 @@ norm
 normal?
 normalize
 normalize!
+_normalize_callback_option
+_normalize_callback_options
 normalize_comment
 normalized
 normalized_file_list
@@ -3903,6 +3918,12 @@ pre_install_hooks
 pre_match
 _prepare_run
 prepend
+prepend_after_action
+prepend_after_filter
+prepend_around_action
+prepend_around_filter
+prepend_before_action
+prepend_before_filter
 prepended
 prepend_features
 preprocess
@@ -4930,8 +4951,16 @@ sizeof
 size_opt_params
 size_params
 skip
+skip_action_callback
+skip_after_action
+skip_after_filter
+skip_around_action
+skip_around_filter
+skip_before_action
+skip_before_filter
 skip_blanks?
 skip_during
+skip_filter
 skip_for_variable
 skip_lines
 skip_method
