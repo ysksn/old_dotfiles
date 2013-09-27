@@ -686,6 +686,7 @@ cd
 cdata
 cdata?
 cdatas
+cdata_section
 cdesc
 cdiv
 ceil
@@ -875,6 +876,9 @@ collect_attributes
 collect_attrs
 collect_concat
 collect_first_comment
+collection_check_boxes
+collection_radio_buttons
+collection_select
 collect_method
 collect_tasks
 collect_tokens
@@ -995,12 +999,15 @@ contains_requirable_file?
 content
 content=
 content_encoding
+content_for
+content_for?
 content_is_set?
 content_length
 content_length=
 content_range
 contents
 content_setup
+content_tag
 content_type
 content_type=
 content_writer
@@ -1781,6 +1788,7 @@ escapeElement
 escape_form
 escape_html
 escapeHTML
+escape_once
 escape_path
 escape_re
 escape_userpass
@@ -2071,6 +2079,7 @@ FlushKey
 flush_left
 flush_next_in
 flush_next_out
+flush_output_buffer
 flush_sessions
 fnmatch
 fnmatch?
@@ -2341,6 +2350,8 @@ grep
 group
 group=
 group_by
+grouped_collection_select
+grouped_options_for_select
 group_entries
 group_queue
 groups
@@ -3583,10 +3594,13 @@ open_timeout
 open_uri_original_open
 open_uri_or_path
 optional?
+option_groups_from_collection_for_select
 option_list
 option_parser
 options
 options=
+options_for_select
+options_from_collection_for_select
 options_of
 optname
 ord
@@ -4557,6 +4571,7 @@ same_attributes?
 same_feed_type?
 sample
 sanitize
+sanitize_css
 sanitize_path
 sanitize_string
 satisfied_by?
@@ -5107,9 +5122,11 @@ string_value
 strip
 strip!
 strip_hashes
+strip_links
 strip_newlines
 strip_quotes
 strip_stars
+strip_tags
 strong
 strongly_connected_components
 strptime
@@ -5398,6 +5415,8 @@ timeout=
 timeouts=
 times
 timestamp
+time_zone_options_for_select
+time_zone_select
 title
 title=
 tls?
@@ -5924,6 +5943,7 @@ with_defaults
 with_index
 with_object
 with_options
+with_output_buffer
 with_response
 with_verbose
 with_warnings
