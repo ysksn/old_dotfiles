@@ -133,6 +133,7 @@ add_file_digest
 add_file_signed
 add_file_simple
 add_filter
+add_flash_types
 add_footnote
 add_found_dependencies
 add_from
