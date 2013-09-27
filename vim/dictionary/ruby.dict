@@ -831,6 +831,7 @@ clear_comment
 clear_comments
 clear_default_specs
 clear_exclude
+clear_helpers
 clear_paths
 clear_prerequisites
 clear_remaining_example_groups
@@ -2451,6 +2452,8 @@ height=
 helo
 help
 helpcontext
+helper
+helper_method
 helpfile
 helpstring
 here?
@@ -3248,6 +3251,7 @@ module_exec
 module_function
 module_names
 modules
+modules_for_helpers
 modules_hash
 modulo
 mon
