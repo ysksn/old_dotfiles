@@ -229,7 +229,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme coffee
+colorscheme default
 set background=dark
 
 " Set extra options when running in GUI mode
