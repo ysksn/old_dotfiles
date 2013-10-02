@@ -324,6 +324,7 @@ array
 Array
 array_attributes
 ascend
+ASCENDING
 asciicompat_encoding
 ascii_compatible?
 ascii_only?
@@ -433,6 +434,7 @@ auth_cram_md5
 auth_data=
 authenticate
 authenticated?
+AuthenticationError
 auth_login
 auth_method
 auth_only
@@ -892,6 +894,7 @@ collect_attributes
 collect_attrs
 collect_concat
 collect_first_comment
+Collection
 collection_check_boxes
 collection_radio_buttons
 collection_select
@@ -988,10 +991,14 @@ connect_address
 connect_from
 connecting
 connect_internal
+Connection
 connection_close?
+ConnectionError
+ConnectionFailure
 connection_for
 connection_keep_alive?
 connections
+ConnectionTimeoutError
 connect_nonblock
 connect_to
 consider_local?
@@ -999,6 +1006,7 @@ consider_remote?
 console
 constant_aliases
 constants
+Constants
 constants_hash
 const_defined?
 const_defined_in?
@@ -1038,6 +1046,7 @@ continue_timeout=
 conv
 conv2value
 conv_arg
+Conversions
 convert
 convert_attr_reader
 convert_attrs
@@ -1162,6 +1171,7 @@ current_scope
 current_section
 current_server
 curry
+Cursor
 curs_set
 curve_name
 curx
@@ -1202,6 +1212,7 @@ day_fraction
 days_ago
 days_since
 days_to_week_start
+DB
 dclone
 deafen
 deal
@@ -1253,6 +1264,7 @@ default_internal
 default_internal=
 default_key_path
 default_load_limit
+DEFAULT_MAX_BSON_SIZE
 default_ole_types
 default_options
 default_parser
@@ -1391,6 +1403,7 @@ dequote
 desc
 descend
 descendant_or_self
+DESCENDING
 describe
 description
 description=
@@ -2229,6 +2242,9 @@ gen_relative_url
 genspace
 gen_sub_directories
 gen_url
+GEO2D
+GEO2DSPHERE
+GEOHAYSTACK
 get
 get2
 getacl
@@ -2366,6 +2382,13 @@ gregorian
 gregorian?
 gregorian_leap?
 grep
+Grid
+GridError
+GridExt
+GridFileNotFound
+GridFileSystem
+GridIO
+GridMD5Failure
 group
 group=
 group_by
@@ -2422,6 +2445,7 @@ has_expires?
 hash
 hash?
 Hash
+HASHED
 hash_old
 has_key?
 has_name?
@@ -2599,6 +2623,7 @@ IndexError
 index_in_parent
 index_methods
 index_pages
+INDEX_TYPES
 indices
 indir
 in_files
@@ -2759,6 +2784,9 @@ in_transaction_wr
 in_tt?
 inv
 invalidate_memoized_attributes
+InvalidNSName
+InvalidOperation
+InvalidSortValueError
 inverse
 invert
 invert!
@@ -2934,6 +2962,7 @@ lcm
 ld
 ldexp
 leap?
+LegacyWriteConcern
 length
 let
 level
@@ -3065,6 +3094,7 @@ log_error
 logger
 logger=
 logging
+Logging
 login
 LOG_MASK
 logo
@@ -3205,6 +3235,7 @@ merge_options
 merge_path
 message
 message_loop
+MESSAGE_SIZE_FACTOR
 meta
 metadata
 meta_vars
@@ -3283,6 +3314,12 @@ mon_enter
 mon_enter_for_cond
 mon_exit
 mon_exit_for_cond
+MongoArgumentError
+MongoClient
+MongoDBError
+MongoReplicaSetClient
+MongoRubyError
+MongoShardedClient
 mon_initialize
 Monitor
 MonitorMixin
@@ -3386,6 +3423,7 @@ need_zip
 nest
 nesting
 net_http
+Networking
 new
 new2
 new3
@@ -3443,6 +3481,7 @@ n_mails
 nmake_found?
 nocbreak
 nocrmode
+Node
 nodelay=
 nodeMustBe
 nodeName
@@ -3451,6 +3490,7 @@ node_type
 nodeType
 _nodeType
 nodeValue
+NodeWithTagsNotFound
 nodoc
 noecho
 NoMemoryError
@@ -3620,6 +3660,8 @@ open_server
 open_timeout
 open_uri_original_open
 open_uri_or_path
+OperationFailure
+OperationTimeout
 optional?
 option_groups_from_collection_for_select
 option_list
@@ -3865,6 +3907,8 @@ point_conversion_form=
 pointer
 pointer=
 polar
+Pool
+PoolManager
 pop
 popd
 popdir
@@ -4242,6 +4286,7 @@ readlink
 read_multipart
 read_nonblock
 readpartial
+ReadPreference
 read_s
 read_s_expand
 read_smime
@@ -4409,7 +4454,9 @@ replace_child
 replacement
 replacement=
 replace_with
+ReplicaSetConnectionError
 replicate
+ReplSetConnection
 reply
 reply_service
 report
@@ -4723,6 +4770,7 @@ server_cert
 server_error?
 server_name
 servername_cb
+ServerVersion
 service
 session
 session=
@@ -4878,6 +4926,8 @@ sexp
 sexp_raw
 sfork
 sh
+ShardedConnection
+ShardingPoolManager
 share_as
 shared_context
 shared_example_groups
@@ -5060,6 +5110,7 @@ ssl?
 ssl_ca_cert
 ssl_params
 ssl_socket
+SSLSocket
 ssl_timeout
 ssl_verify_mode
 ssl_version
@@ -5227,6 +5278,7 @@ superclass_method
 super_each
 superset?
 supply_default_content_type
+Support
 supported?
 suppress
 suppressed?
@@ -5332,6 +5384,7 @@ tcp
 tcp_server_loop
 tcp_server_sockets
 tcp_socket
+TCPSocket
 teardown
 tee
 telephone_field
@@ -5423,6 +5476,7 @@ test_start_accepting
 text
 text=
 text?
+TEXT
 textarea
 text_area
 text_area_tag
@@ -5440,6 +5494,7 @@ ThreadGroup
 thread_internal
 thread_list
 thread_list_all
+ThreadLocalVariableManager
 threads
 thread_variable?
 thread_variable_get
@@ -5699,6 +5754,7 @@ unix_path
 unix_rights
 unix_server_loop
 unix_server_socket
+UNIXSocket
 unix_socket_abstract_name?
 unknown
 unlink
@@ -5764,6 +5820,7 @@ URI
 uri_convert_attr_reader
 uri_escaper
 uri_option
+URIParser
 uri_registered?
 url_encode
 url_field
@@ -6030,6 +6087,7 @@ write_build_info_file
 write_cache_file
 write_cdata
 write_comment
+WriteConcern
 write_document
 write_element
 writeencoding
