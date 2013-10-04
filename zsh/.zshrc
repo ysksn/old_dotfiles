@@ -6,7 +6,7 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
 ## alias
-alias ls='ls -AF --color'
+alias ls='ls -AF'
 alias ll='ls -lF'
 alias la='ls -lAF'
 alias df="df -h"
