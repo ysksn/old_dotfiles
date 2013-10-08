@@ -6,12 +6,11 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
 ## alias
-alias ls='ls -AF --color'
+alias ls='ls -AF'
 alias ll='ls -lF'
 alias la='ls -lAF'
 alias df="df -h"
 alias du="du -h"
-alias ssh="ssh -p 8022 "
 
 ## not distinguish between lower case and upper case
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
