@@ -1,6 +1,7 @@
 
 `
 ^
+~
 <
 <<
 <=
@@ -1763,6 +1764,7 @@ ensure_loadable_spec
 ensure_required_rubygems_version_met
 ensure_required_ruby_version_met
 ensure_xml_content
+enter
 entities
 entity
 entity?
@@ -4978,6 +4980,7 @@ signed_value
 signers
 sign_in
 signing_key
+signm
 signo
 silence
 silence_stderr
@@ -5660,6 +5663,7 @@ try!
 try_activate
 try_const
 try_convert
+try_enter
 try_lock
 try_mon_enter
 try_type
